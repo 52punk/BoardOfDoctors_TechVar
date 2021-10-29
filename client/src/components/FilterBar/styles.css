@@ -1,16 +1,48 @@
 .filterbar-container {
-  background-color: aliceblue;
+  background-color: white;
 }
 .filterbar-filters-container {
   display: flex;
+  height: 50px;
+  align-items: center;
+  margin-left: 5%;
 }
 
 .filter-container {
-  padding: 0% 2% 0% 2%;
+  padding: 0px 10px 0px 10px;
 }
 .primary {
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 16px;
 }
 .secondary {
-  font-weight: 400;
+  font-weight: unset;
+}
+.dropdown-content {
+  display: none;
+}
+.primary:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px;
+  font-size: 14px;
+}
+.dropdown-item:hover {
+  cursor: pointer;
+  background-color: #f7f7f7;
+}
+.dropbtn {
+  background-color: white;
+  cursor: pointer;
+}
+.secondary:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content {
+  display: block;
+  border-color: white;
+  background-color: white;
+  cursor: pointer;
 }

@@ -2,10 +2,16 @@
   background-color: darkslategray;
   display: flex;
   color: white;
+  height: 50px;
+  align-items: center;
+  background-color: #26274d;
 }
 
 .navbar-icon-container {
   flex-grow: 0.1;
+}
+.navbar-icon-container img {
+  height: 50px;
 }
 
 .navbar-title-container {

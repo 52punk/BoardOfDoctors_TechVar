@@ -1,10 +1,52 @@
 .card-container {
-  box-shadow: 1px 1px 5px #284759;
-  max-width: 300 px;
+  margin: 10px;
+  box-shadow: 1px 1px 7px lavender;
+  background-color: #fff;
 }
 .card-details-container {
   display: flex;
 }
 .card-pic-container {
   flex-grow: 0.1;
+  margin: 3% 2% 15% 2%;
+}
+.card-pic-container img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.card-info-container {
+  margin: 2% 0% 0% 0%;
+}
+.card-schedule-container {
+  display: flex;
+  border-top: 2px solid #f7f7f7;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-weight: 500;
+}
+.other {
+  font-weight: 100;
+  font-size: 14px;
+}
+.card-info-fee {
+  margin: auto;
+}
+.card-schedule {
+  padding: 10px;
+}
+.availability {
+  font-size: 14px;
+  /* color: darkgray; */
+  font-weight: lighter;
+}
+.schedule {
+  font-size: 14px;
+  color: red;
+  font-weight: 600;
+}
+.availability-time {
+  font-weight: 400;
 }
