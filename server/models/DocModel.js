@@ -6,6 +6,7 @@ const postSchema = mongoose.Schema({
   specialist: String,
   picture: String,
   area: String,
+  available: String,
   experience: {
     type: Number,
     default: 0,
