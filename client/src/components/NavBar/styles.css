@@ -1,19 +1,19 @@
 .navbar-container {
-  background-color: darkslategray;
   display: flex;
   color: white;
   height: 50px;
   align-items: center;
-  background-color: #26274d;
+  background-color: #40484f;
 }
 
 .navbar-icon-container {
-  flex-grow: 0.1;
+  flex-grow: 0.02;
+  padding-left: 50px;
 }
 .navbar-icon-container img {
-  height: 50px;
+  height: 30px;
 }
 
 .navbar-title-container {
-  flex-grow: 0.85;
+  flex-grow: 0.9;
 }

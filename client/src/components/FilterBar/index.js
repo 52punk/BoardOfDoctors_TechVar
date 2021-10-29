@@ -19,8 +19,6 @@ const FilterBar = (props) => {
         <div className="filter-container ">
           <select name="specialist" className="dropdown-content primary">
             <option className="dropdown-item">Neurology</option>
-            <option className="dropdown-item">surgeon</option>
-            <option className="dropdown-item">therapist</option>
           </select>
         </div>
         <div className="filter-container ">
